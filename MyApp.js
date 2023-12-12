@@ -30,7 +30,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 
-app.get ("/home",(req, res)=>{
+app.get ("/",(req, res)=>{
   res.render("index");
 })
 
